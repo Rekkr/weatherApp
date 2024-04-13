@@ -1,0 +1,84 @@
+CSS
+@import url(); url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100.900;1,100.900&display=swap');
+#parent{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+#w-display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+ background-color: darkblue;
+ color: white;
+ height: 1005px;
+ flex-grow: calc(1);
+}
+#cloud{
+  height: 200px;
+  width: 200px;
+}
+#t-weather-1{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  gap: 20px;
+ 
+}
+#windy{
+  text-align: center;
+  font-size: 24pt;
+}
+#Rain-prob{
+  text-align: center;
+  font-size: 24pt;
+}
+#humid{
+  text-align: center;
+  font-size: 24pt;
+}
+#week-dis{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  align-content: center;
+  justify-items: stretch;
+  justify-content: space-around;
+  font-family: "Raleway", sans-serif;
+  background-color: black;
+  color: white;
+  height: 1005px;
+  text-align: center;
+  font-size: 24pt;
+  flex-grow: calc(2);
+}
+#monday{
+  align-content: center;
+}
+#tuesday{
+  align-items: center;
+  align-content: center;
+}
+#wednesday{
+  align-items: center;
+  align-content: center;
+}
+#thursday{
+  align-items: center;
+  align-content: center;
+}
+#friday{
+  align-items: center;
+  align-content: center;
+}
+h1{
+    font-family: "Raleway", sans-serif;
+  }
+h2{
+    font-family: "Raleway", sans-serif;
+  }
